@@ -5,7 +5,8 @@ FROM online_retail_II
 WHERE ISNUMERIC(Quantity) = 1;
 
 -- Calculate total number of orders in the dataset"
-SELECT COUNT(*) AS TotalOrders FROM [dbo].[online_retail_II]
+SELECT COUNT(*) AS TotalOrders 
+FROM [dbo].[online_retail_II]
 =1050924
 
 --Identify the amount of distinct StockCodes"
